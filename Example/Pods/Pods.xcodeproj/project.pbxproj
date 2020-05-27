@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		72BB211D90626C0ED24555E0E63DF7F7 /* Pods-Sam_CodeView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4172B71E8F858B4AEE48649888BB3AF1 /* Pods-Sam_CodeView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C486D3C04CD6A1EDF33ABA6F4B652F9 /* Pods-Sam_CodeView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19595FEFA2D647D27876F053EF95E149 /* Pods-Sam_CodeView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9DE6EE9C00D03C061154074ECBA8506C /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661B628B209D33C7A0851E3B318C1F1E /* CodeView.swift */; };
-		A0079AEDF21CCEC592EFB05CEF0F47C2 /* Sam_CodeView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88C594F1B786DBBC558201E81A95BF92 /* Sam_CodeView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DE6EE9C00D03C061154074ECBA8506C /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E91DD1DAAD28AE18CF78D9C72330DBC /* CodeView.swift */; };
+		A0079AEDF21CCEC592EFB05CEF0F47C2 /* Sam_CodeView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC9EFBF609186EEA3DD1DBCA2197395 /* Sam_CodeView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B60B5F619271369188B850B95543944A /* Pods-Sam_CodeView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5AB7E650BD92DE180D1178C6894354 /* Pods-Sam_CodeView_Tests-dummy.m */; };
-		E711320E81303DDE69AE60E66D8CB785 /* Sam_CodeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6979E981A53FABFFF77094C4950F95B /* Sam_CodeView-dummy.m */; };
+		E711320E81303DDE69AE60E66D8CB785 /* Sam_CodeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 519FDC8A0EB2A0FF934B63A739B28F43 /* Sam_CodeView-dummy.m */; };
 		EDA89188DDE7F2FA2086AA57DD4D4024 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		F377330AA6B3C17042E6778FA9520193 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		F4129BC8379394B39C1989C7CEEE6298 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -38,35 +38,32 @@
 
 /* Begin PBXFileReference section */
 		0054EFA2FBF12ED5403DD06352586E1B /* Pods-Sam_CodeView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sam_CodeView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0F589A0CB8739342300415AE82E40EA7 /* Sam_CodeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Sam_CodeView-prefix.pch"; sourceTree = "<group>"; };
 		19595FEFA2D647D27876F053EF95E149 /* Pods-Sam_CodeView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sam_CodeView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2388736CBB5A5198B8A1546E07A32021 /* Pods-Sam_CodeView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Sam_CodeView_Example.modulemap"; sourceTree = "<group>"; };
 		2C237345A005BACCAA7370DA55429D73 /* Pods-Sam_CodeView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sam_CodeView_Tests-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3E3BFC006765F271CDE026FDC071BD50 /* Pods-Sam_CodeView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sam_CodeView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		41312043B2DDC896938B4F1A5636C0F9 /* Sam_CodeView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Sam_CodeView.release.xcconfig; sourceTree = "<group>"; };
+		3E91DD1DAAD28AE18CF78D9C72330DBC /* CodeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodeView.swift; path = Sam_CodeView/Classes/CodeView.swift; sourceTree = "<group>"; };
 		4172B71E8F858B4AEE48649888BB3AF1 /* Pods-Sam_CodeView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sam_CodeView_Example-umbrella.h"; sourceTree = "<group>"; };
 		4C5AB7E650BD92DE180D1178C6894354 /* Pods-Sam_CodeView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sam_CodeView_Tests-dummy.m"; sourceTree = "<group>"; };
-		4CC70590D7A391B346CDFA2448ACD7BC /* Sam_CodeView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Sam_CodeView.debug.xcconfig; sourceTree = "<group>"; };
 		4F5BC3D765FDC371B71D5A0051808983 /* Pods-Sam_CodeView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sam_CodeView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		57A55A2E3613CABBED44E594EC2394C9 /* Sam_CodeView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Sam_CodeView-Info.plist"; sourceTree = "<group>"; };
+		519FDC8A0EB2A0FF934B63A739B28F43 /* Sam_CodeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Sam_CodeView-dummy.m"; sourceTree = "<group>"; };
+		51EA8A7E45D116937F7B343874F2E101 /* Sam_CodeView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Sam_CodeView.modulemap; sourceTree = "<group>"; };
 		5A111C21CE0F1B82CCB2F62B5D7374CC /* Pods-Sam_CodeView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sam_CodeView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6583C7884C5C735424CE53E41D39D06A /* Pods-Sam_CodeView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Sam_CodeView_Tests.modulemap"; sourceTree = "<group>"; };
-		661B628B209D33C7A0851E3B318C1F1E /* CodeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodeView.swift; path = Sam_CodeView/Classes/CodeView.swift; sourceTree = "<group>"; };
 		6725CE4A3E0B7590B5759C18E0AD91C1 /* Pods-Sam_CodeView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sam_CodeView_Example-Info.plist"; sourceTree = "<group>"; };
 		75E29AD24A711CEBBC35BDFB55368AA2 /* Pods-Sam_CodeView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sam_CodeView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		88C594F1B786DBBC558201E81A95BF92 /* Sam_CodeView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Sam_CodeView-umbrella.h"; sourceTree = "<group>"; };
-		941B04B167DF32C5A9B4203779053C7D /* Sam_CodeView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Sam_CodeView.modulemap; sourceTree = "<group>"; };
-		9D026800307A264C2AAA6FE19B8F731C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7B7F9C6E2237BD7CE01AA6FDEE127035 /* Sam_CodeView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Sam_CodeView-Info.plist"; sourceTree = "<group>"; };
+		825B8E7EC0126FE497A93DD50357E51D /* Sam_CodeView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Sam_CodeView.release.xcconfig; sourceTree = "<group>"; };
+		9AC9EFBF609186EEA3DD1DBCA2197395 /* Sam_CodeView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Sam_CodeView-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E761BD69E0F1A9FDDD985D057A5933B /* Sam_CodeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Sam_CodeView-prefix.pch"; sourceTree = "<group>"; };
-		A641E655FCED5835CB44C54C07648D04 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		A7F7CBC2F81053D3307D6233E843FD5C /* Pods-Sam_CodeView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sam_CodeView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B6E92784315739D902555B0C6530C237 /* Sam_CodeView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Sam_CodeView.debug.xcconfig; sourceTree = "<group>"; };
 		BD23E9396C55660DB892CDEEE3EC1F61 /* Pods-Sam_CodeView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sam_CodeView_Example-dummy.m"; sourceTree = "<group>"; };
 		C4A93A4F15CF5B1AFF8C8E3854B78E21 /* Sam_CodeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Sam_CodeView.framework; path = Sam_CodeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0078808908C45700BD9F632047BA9DE /* Pods-Sam_CodeView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sam_CodeView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DA158BA6707B4C7C5CCA546BB8C03682 /* Sam_CodeView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Sam_CodeView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DB42B21D2777B6ADBF84D3D90C95A4E1 /* Pods-Sam_CodeView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sam_CodeView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E6979E981A53FABFFF77094C4950F95B /* Sam_CodeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Sam_CodeView-dummy.m"; sourceTree = "<group>"; };
 		EDC657021ED30421C3A7B22F3372D299 /* Pods_Sam_CodeView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Sam_CodeView_Example.framework; path = "Pods-Sam_CodeView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F16A5DD97A5C003E31F565595923EEDD /* Pods_Sam_CodeView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Sam_CodeView_Tests.framework; path = "Pods-Sam_CodeView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F220FB13D9225926EBC093F11A453DB2 /* Pods-Sam_CodeView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sam_CodeView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -100,19 +97,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		27638E8AE628BF4B154B74CD7909624D /* Support Files */ = {
+		181141334CFE579DA435A54F119EBDF6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				941B04B167DF32C5A9B4203779053C7D /* Sam_CodeView.modulemap */,
-				E6979E981A53FABFFF77094C4950F95B /* Sam_CodeView-dummy.m */,
-				57A55A2E3613CABBED44E594EC2394C9 /* Sam_CodeView-Info.plist */,
-				9E761BD69E0F1A9FDDD985D057A5933B /* Sam_CodeView-prefix.pch */,
-				88C594F1B786DBBC558201E81A95BF92 /* Sam_CodeView-umbrella.h */,
-				4CC70590D7A391B346CDFA2448ACD7BC /* Sam_CodeView.debug.xcconfig */,
-				41312043B2DDC896938B4F1A5636C0F9 /* Sam_CodeView.release.xcconfig */,
+				BE4E44232E15246A646B459750342826 /* Sam_CodeView */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Sam_CodeView";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		2BB2F9C62E69D21FD9EE7B78FED6C4B8 /* Pods-Sam_CodeView_Tests */ = {
@@ -131,14 +121,6 @@
 			path = "Target Support Files/Pods-Sam_CodeView_Tests";
 			sourceTree = "<group>";
 		};
-		4311580F94F92700B2B47BF9446BBA62 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A53508044527A7A4C0D9885460A30B85 /* Sam_CodeView */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		44C0C7C7257EAB9FCA88364CAF8E57AD /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,14 +131,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6ABA77B16E175FE0398AAA806D2A940E /* Pod */ = {
+		627878E3A35CD9448ABA7C556A113C88 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9D026800307A264C2AAA6FE19B8F731C /* LICENSE */,
-				A641E655FCED5835CB44C54C07648D04 /* README.md */,
-				DA158BA6707B4C7C5CCA546BB8C03682 /* Sam_CodeView.podspec */,
+				51EA8A7E45D116937F7B343874F2E101 /* Sam_CodeView.modulemap */,
+				519FDC8A0EB2A0FF934B63A739B28F43 /* Sam_CodeView-dummy.m */,
+				7B7F9C6E2237BD7CE01AA6FDEE127035 /* Sam_CodeView-Info.plist */,
+				0F589A0CB8739342300415AE82E40EA7 /* Sam_CodeView-prefix.pch */,
+				9AC9EFBF609186EEA3DD1DBCA2197395 /* Sam_CodeView-umbrella.h */,
+				B6E92784315739D902555B0C6530C237 /* Sam_CodeView.debug.xcconfig */,
+				825B8E7EC0126FE497A93DD50357E51D /* Sam_CodeView.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "../Target Support Files/Sam_CodeView";
 			sourceTree = "<group>";
 		};
 		A12EB45E262037B2FB5792629C54DDAA /* Pods-Sam_CodeView_Example */ = {
@@ -176,17 +163,6 @@
 			path = "Target Support Files/Pods-Sam_CodeView_Example";
 			sourceTree = "<group>";
 		};
-		A53508044527A7A4C0D9885460A30B85 /* Sam_CodeView */ = {
-			isa = PBXGroup;
-			children = (
-				661B628B209D33C7A0851E3B318C1F1E /* CodeView.swift */,
-				6ABA77B16E175FE0398AAA806D2A940E /* Pod */,
-				27638E8AE628BF4B154B74CD7909624D /* Support Files */,
-			);
-			name = Sam_CodeView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		A981ED804CD0A191C8058B43FAE2CDD9 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +170,16 @@
 				2BB2F9C62E69D21FD9EE7B78FED6C4B8 /* Pods-Sam_CodeView_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BE4E44232E15246A646B459750342826 /* Sam_CodeView */ = {
+			isa = PBXGroup;
+			children = (
+				3E91DD1DAAD28AE18CF78D9C72330DBC /* CodeView.swift */,
+				627878E3A35CD9448ABA7C556A113C88 /* Support Files */,
+			);
+			name = Sam_CodeView;
+			path = Sam_CodeView;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -208,8 +194,8 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				4311580F94F92700B2B47BF9446BBA62 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				181141334CFE579DA435A54F119EBDF6 /* Pods */,
 				44C0C7C7257EAB9FCA88364CAF8E57AD /* Products */,
 				A981ED804CD0A191C8058B43FAE2CDD9 /* Targets Support Files */,
 			);
@@ -440,38 +426,6 @@
 			};
 			name = Release;
 		};
-		126E3413D4CB2F99124C0A44EB5ED34E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41312043B2DDC896938B4F1A5636C0F9 /* Sam_CodeView.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Sam_CodeView/Sam_CodeView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Sam_CodeView/Sam_CodeView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Sam_CodeView/Sam_CodeView.modulemap";
-				PRODUCT_MODULE_NAME = Sam_CodeView;
-				PRODUCT_NAME = Sam_CodeView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		1BA238B3C807BC58709C191B568402CF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 75E29AD24A711CEBBC35BDFB55368AA2 /* Pods-Sam_CodeView_Example.debug.xcconfig */;
@@ -505,37 +459,6 @@
 			};
 			name = Debug;
 		};
-		744BFD3776E96F4580BA0B220668A12A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4CC70590D7A391B346CDFA2448ACD7BC /* Sam_CodeView.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Sam_CodeView/Sam_CodeView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Sam_CodeView/Sam_CodeView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Sam_CodeView/Sam_CodeView.modulemap";
-				PRODUCT_MODULE_NAME = Sam_CodeView;
-				PRODUCT_NAME = Sam_CodeView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		8112D11C2EA4BCD7ABE66770838B1B4D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D0078808908C45700BD9F632047BA9DE /* Pods-Sam_CodeView_Tests.debug.xcconfig */;
@@ -563,6 +486,69 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		81721D7A7DDEB46659D6778D9F435142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 825B8E7EC0126FE497A93DD50357E51D /* Sam_CodeView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Sam_CodeView/Sam_CodeView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Sam_CodeView/Sam_CodeView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Sam_CodeView/Sam_CodeView.modulemap";
+				PRODUCT_MODULE_NAME = Sam_CodeView;
+				PRODUCT_NAME = Sam_CodeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84A789A6873338EA99C008A035C14126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6E92784315739D902555B0C6530C237 /* Sam_CodeView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Sam_CodeView/Sam_CodeView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Sam_CodeView/Sam_CodeView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Sam_CodeView/Sam_CodeView.modulemap";
+				PRODUCT_MODULE_NAME = Sam_CodeView;
+				PRODUCT_NAME = Sam_CodeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -742,8 +728,8 @@
 		74C89DD514200C8A5F85D5BDCE5B1283 /* Build configuration list for PBXNativeTarget "Sam_CodeView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				744BFD3776E96F4580BA0B220668A12A /* Debug */,
-				126E3413D4CB2F99124C0A44EB5ED34E /* Release */,
+				84A789A6873338EA99C008A035C14126 /* Debug */,
+				81721D7A7DDEB46659D6778D9F435142 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

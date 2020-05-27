@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Sam_CodeView'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = '自定义验证码输入框、线条样式'
 
 # This description is used to generate tags and improve search results.
@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  TODO: CodeView 是一个可以高度自定义手机验证码输入的控件。
+                         DESC
 
   s.homepage         = 'https://github.com/SamXZP/Sam_CodeView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'

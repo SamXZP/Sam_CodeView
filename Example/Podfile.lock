@@ -1,16 +1,16 @@
 PODS:
-  - Sam_CodeView (0.1.0)
+  - Sam_CodeView (1.0.1)
 
 DEPENDENCIES:
-  - Sam_CodeView (from `../`)
+  - Sam_CodeView (from `../Sam_CodeView.podspec`)
 
 EXTERNAL SOURCES:
   Sam_CodeView:
-    :path: "../"
+    :podspec: "../Sam_CodeView.podspec"
 
 SPEC CHECKSUMS:
-  Sam_CodeView: c3227936881609fc4465af10277659777bda030b
+  Sam_CodeView: 0aff68e7369c5a14630c404fc8fec1472b133df7
 
-PODFILE CHECKSUM: 5af558056c29c94fa162b5a2bffaef486139aa71
+PODFILE CHECKSUM: 61ab4156e6dbe57ca280f2bf4e500f7c0e82b0c2
 
 COCOAPODS: 1.9.1

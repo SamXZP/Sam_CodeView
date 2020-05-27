@@ -200,8 +200,8 @@ extension CodeView{
         animation.duration = 0.9
         animation.repeatCount = HUGE
         animation.isRemovedOnCompletion = true
-        animation.fillMode = CAMediaTimingFillMode(rawValue: "forwards")
-        animation.timingFunction = CAMediaTimingFunction.init(name: CAMediaTimingFunctionName(rawValue: "easeIn"))
+        animation.fillMode = CAMediaTimingFillMode.init(string: "forwards") as String
+        animation.timingFunction = CAMediaTimingFunction.init(name: CAMediaTimingFunctionName.init(string: "easeIn") as String)
         return animation
     }
 }

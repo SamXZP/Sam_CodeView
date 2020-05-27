@@ -1,8 +1,8 @@
 {
   "name": "Sam_CodeView",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "summary": "自定义验证码输入框、线条样式",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "TODO: CodeView 是一个可以高度自定义手机验证码输入的控件。",
   "homepage": "https://github.com/SamXZP/Sam_CodeView",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/SamXZP/Sam_CodeView.git",
-    "tag": "1.0.0"
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "9.0"
