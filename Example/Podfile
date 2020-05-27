@@ -1,8 +1,8 @@
 use_frameworks!
-
+platform :ios, '9.0'
 target 'Sam_CodeView_Example' do
-  pod 'Sam_CodeView', :path => '../'
-
+#  pod 'Sam_CodeView', :path => '../'
+   pod 'Sam_CodeView', :podspec => '../Sam_CodeView.podspec'
   target 'Sam_CodeView_Tests' do
     inherit! :search_paths
 

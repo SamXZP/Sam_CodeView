@@ -1,0 +1,16 @@
+PODS:
+  - Sam_CodeView (0.1.0)
+
+DEPENDENCIES:
+  - Sam_CodeView (from `../`)
+
+EXTERNAL SOURCES:
+  Sam_CodeView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Sam_CodeView: c3227936881609fc4465af10277659777bda030b
+
+PODFILE CHECKSUM: 5af558056c29c94fa162b5a2bffaef486139aa71
+
+COCOAPODS: 1.9.1

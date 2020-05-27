@@ -1,0 +1,6 @@
+framework module Sam_CodeView {
+  umbrella header "Sam_CodeView-umbrella.h"
+
+  export *
+  module * { export * }
+}
