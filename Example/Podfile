@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Sam_CodeView_Example' do
+  pod 'Sam_CodeView', :path => '../'
+
+  target 'Sam_CodeView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
