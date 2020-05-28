@@ -40,13 +40,9 @@ pod 'Sam_CodeView', '1.0.1'
 ```swift
 
 let view = CodeView.init(frame: CGRect.init(x: 50, y: 160, width: SCREEN_WIDTH-100, height: 50),codeNumber: 4,style: .CodeStyle_line)
-
 view.codeBlock = { [weak self] code in
-
     print("\n\n=======>您输入的验证码是：\(code)")
-
 }
-
 self.view.addSubview(view)
 
 ```
@@ -76,53 +72,32 @@ self.view.addSubview(view)
 @objc func textChage(_ textField: UITextField) {
 
     var verStr:String = textField.text ?? ""
-
+    
     if verStr.count > codeNumber {
-
         let substring = textField.text?.prefix(codeNumber)
-
         textField.text = String(substring ?? "")
-
         verStr = textField.text ?? ""
-
     }
-
+    
     if  verStr.count >= codeNumber {
-
         if (self.codeBlock != nil) {
-
-            self.codeBlock?(textField.text ?? "")
-
+           self.codeBlock?(textField.text ?? "")
         }
-
     }
-
-
 
     for index in 0..<codeNumber {
-
         let label:UILabel = labelArray[index]
-
         if (index < verStr.count){
-
             let str : NSString = verStr as NSString
-
             label.text = str.substring(with: NSMakeRange(index, 1))
-
         }
-
         else{
-
             label.text = ""
-
         }
-
+        
         changeOpacityAnimalForShapeLayerWithIndex(index: index, hidden: index == verStr.count ? false : true)
-
         changeColorForLayerWithIndex(index: index, hidden: index > verStr.count ? false : true)
-
     }
-
 }
 
 ```
