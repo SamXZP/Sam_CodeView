@@ -35,7 +35,7 @@ pod 'Sam_CodeView', '1.0.1'
 
 ### 使用方法
 
-**Clone或者download到本地，然后把CodeView.swift文件拖到自己的项目，下面是使用方法:**
+**import Sam_CodeView**
 
 ```swift
 
@@ -133,3 +133,5 @@ gztzxzp@163.com, gztzxzp@gmail.com
 ## License
 
 Sam_CodeView is available under the MIT license. See the LICENSE file for more info.
+
+
