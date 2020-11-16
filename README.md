@@ -27,7 +27,7 @@ it, simply add the following line to your Podfile:
 source 'https://github.com/SamXZP/Sam_CodeViewSpec.git'  //在podfile 里面加上私有库源
 pod 'Sam_CodeView', '1.0.1'   
 ```
-###介绍
+### 介绍
 **CodeView** 是一个可以高度自定义手机验证码输入的控件。
 
 下面介绍下`CodeView`**swift版本**的原理和用法
